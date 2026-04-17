@@ -1,23 +1,75 @@
 # Command Inventory
 
-144 commands, grouped by module prefix. `⚠ stub` = fewer than 10 lines (candidate for expansion).
+138 commands, grouped by module prefix. `⚠ stub` = fewer than 10 lines (candidate for expansion).
 
-## `(unclassified)` (14)
+## Summary by module
 
-- `benchmark-gpu.md` (60 lines)
-- `benchmark-hardware.md` (41 lines)
-- `boot-time.md` (17 lines)
-- `disk-usage.md` (20 lines)
-- `filesystem-health.md` (20 lines)
-- `gpu-status.md` (23 lines)
-- `hw-benchmark.md` (5 lines) ⚠ stub
-- `install-package-best.md` (11 lines)
-- `optimize-dashboard.md` (40 lines)
-- `optimize-fonts.md` (36 lines)
-- `optimize-for-web.md` (73 lines)
-- `optimize-paragraph-breaks.md` (41 lines)
-- `service-monitor.md` (57 lines)
-- `setup-machine-profile.md` (65 lines)
+| Module | Count | Stubs |
+|---|---:|---:|
+| `ai-cli-seeders` | 2 | 2 |
+| `ai-local-ai` | 2 | - |
+| `ai-local-ai-comfyui` | 1 | - |
+| `ai-local-ai-ollama` | 3 | - |
+| `ai-mcp` | 1 | - |
+| `ai-stt` | 1 | - |
+| `audio` | 2 | 2 |
+| `backup` | 1 | - |
+| `bluetooth` | 2 | - |
+| `configuration` | 2 | - |
+| `configuration-bash` | 2 | 1 |
+| `configuration-git` | 2 | - |
+| `configuration-permissions` | 1 | - |
+| `configuration-secrets` | 1 | - |
+| `configuration-ssh` | 2 | - |
+| `debugging` | 2 | - |
+| `debugging-boot` | 4 | 1 |
+| `dev-tools` | 1 | - |
+| `dev-tools-docker` | 1 | - |
+| `dev-tools-ides` | 1 | - |
+| `dev-tools-node` | 2 | 2 |
+| `dev-tools-python` | 1 | - |
+| `dev-tools-python-conda` | 5 | - |
+| `dev-tools-python-pyenv` | 1 | - |
+| `dev-tools-sdks` | 1 | 1 |
+| `dev-tools-yadm` | 2 | - |
+| `display` | 5 | 1 |
+| `fonts` | 3 | - |
+| `fs-optimisation-chunk` | 1 | 1 |
+| `fs-optimisation-consolidate` | 1 | - |
+| `fs-optimisation-flatten` | 1 | 1 |
+| `fs-optimisation-idate` | 1 | - |
+| `fs-optimisation-separate` | 2 | 2 |
+| `fs-optimisation-tidy-up` | 2 | 1 |
+| `hardware` | 7 | 1 |
+| `hardware-hardware-profilers` | 2 | - |
+| `hardware-hardware-profilers-by-component` | 4 | - |
+| `installation` | 3 | 2 |
+| `installation-clis` | 8 | - |
+| `installation-guis` | 1 | 1 |
+| `kde` | 4 | - |
+| `logging` | 5 | - |
+| `media` | 1 | - |
+| `network` | 1 | - |
+| `network-lan` | 4 | - |
+| `optimisation` | 2 | 1 |
+| `package-management` | 5 | - |
+| `peripherals` | 2 | 1 |
+| `power-mgmt` | 2 | 1 |
+| `program-management` | 1 | - |
+| `repositories` | 2 | - |
+| `security` | 1 | - |
+| `security-audits` | 2 | - |
+| `security-auth` | 2 | 2 |
+| `security-av` | 1 | - |
+| `security-firewall` | 1 | - |
+| `security-posture-diagnostics` | 1 | - |
+| `storage` | 2 | - |
+| `storage-health-checks` | 3 | - |
+| `storage-network-mounts` | 2 | - |
+| `storage-raid` | 1 | - |
+| `system-health` | 4 | - |
+| `utilities` | 1 | - |
+| `virtualization` | 1 | - |
 
 ## `ai-cli-seeders` (2)
 
@@ -61,9 +113,10 @@
 - `bluetooth-reset-bluetooth.md` (330 lines)
 - `bluetooth-troubleshoot-bluetooth.md` (300 lines)
 
-## `configuration` (1)
+## `configuration` (2)
 
 - `configuration-check-path.md` (209 lines)
+- `configuration-setup-machine-profile.md` (65 lines)
 
 ## `configuration-bash` (2)
 
@@ -93,11 +146,12 @@
 - `debugging-diagnose-crash.md` (162 lines)
 - `debugging-diagnose-slowdown.md` (134 lines)
 
-## `debugging-boot` (3)
+## `debugging-boot` (4)
 
 - `debugging-boot-check-boot-logs.md` (43 lines)
 - `debugging-boot-failed-boot-services.md` (7 lines) ⚠ stub
 - `debugging-boot-review-boot.md` (36 lines)
+- `debugging-boot-time.md` (17 lines)
 
 ## `dev-tools` (1)
 
@@ -149,10 +203,11 @@
 - `display-setup-multi-monitor.md` (90 lines)
 - `display-switch-display-profile.md` (172 lines)
 
-## `fonts` (2)
+## `fonts` (3)
 
 - `fonts-install-google-fonts.md` (80 lines)
 - `fonts-list-fonts.md` (79 lines)
+- `fonts-optimize-fonts.md` (36 lines)
 
 ## `fs-optimisation-chunk` (1)
 
@@ -180,11 +235,14 @@
 - `fs-optimisation-tidy-up-desktop-tidy.md` (9 lines) ⚠ stub
 - `fs-optimisation-tidy-up-organize-loose-files.md` (32 lines)
 
-## `hardware` (4)
+## `hardware` (7)
 
+- `hardware-benchmark-gpu.md` (60 lines)
+- `hardware-benchmark.md` (41 lines)
+- `hardware-check-compatibility.md` (8 lines) ⚠ stub
 - `hardware-check-gpu-os-optimization.md` (84 lines)
-- `hardware-check.md` (8 lines) ⚠ stub
 - `hardware-evaluate-wake-devices.md` (75 lines)
+- `hardware-gpu-status.md` (23 lines)
 - `hardware-review-gpu-settings.md` (104 lines)
 
 ## `hardware-hardware-profilers` (2)
@@ -199,9 +257,10 @@
 - `hardware-hardware-profilers-by-component-profile-motherboard.md` (456 lines)
 - `hardware-hardware-profilers-by-component-profile-ram.md` (278 lines)
 
-## `installation` (2)
+## `installation` (3)
 
 - `installation-install-from-gh.md` (7 lines) ⚠ stub
+- `installation-install-package-best.md` (11 lines)
 - `installation-install-this.md` (3 lines) ⚠ stub
 
 ## `installation-clis` (8)
@@ -226,21 +285,21 @@
 - `kde-optimize-kde-performance.md` (288 lines)
 - `kde-reset-plasma-config.md` (249 lines)
 
-## `logging` (4)
+## `logging` (5)
 
 - `logging-analyze-journal-errors.md` (153 lines)
 - `logging-check-failed-units.md` (204 lines)
 - `logging-monitor-system-resources.md` (236 lines)
+- `logging-service-monitor.md` (57 lines)
 - `logging-tail-system-logs.md` (249 lines)
 
 ## `media` (1)
 
 - `media-check-codecs.md` (89 lines)
 
-## `network` (2)
+## `network` (1)
 
-- `network-diagram.md` (469 lines)
-- `network-health.md` (23 lines)
+- `network-health-check.md` (23 lines)
 
 ## `network-lan` (4)
 
@@ -307,14 +366,16 @@
 
 - `security-posture-diagnostics-security-posture-check.md` (98 lines)
 
-## `storage` (1)
+## `storage` (2)
 
-- `storage-manager.md` (153 lines)
+- `storage-disk-usage.md` (20 lines)
+- `storage-storage-manager.md` (153 lines)
 
-## `storage-health-checks` (2)
+## `storage-health-checks` (3)
 
 - `storage-health-checks-btrfs-snapper-health.md` (41 lines)
 - `storage-health-checks-check-drive-health.md` (83 lines)
+- `storage-health-checks-filesystem-health.md` (20 lines)
 
 ## `storage-network-mounts` (2)
 
@@ -325,13 +386,12 @@
 
 - `storage-raid-check-raid-config.md` (54 lines)
 
-## `system-health` (5)
+## `system-health` (4)
 
 - `system-health-optimize-pipewire.md` (57 lines)
 - `system-health-review-startup-services.md` (102 lines)
 - `system-health-system-health-checkup.md` (87 lines)
 - `system-health-system-upgrade.md` (21 lines)
-- `system-health.md` (14 lines)
 
 ## `utilities` (1)
 
